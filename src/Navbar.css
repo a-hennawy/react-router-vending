@@ -1,0 +1,16 @@
+.nav-container {
+  display: flex; /* Enables Flexbox */
+  justify-content: center; /* Centers items horizontally */
+  align-items: center; /* Optional: Centers items vertically if the navbar has height */
+  height: 60px; /* Optional: Set a height for the navbar */
+  background-color: lightpink; /* Optional: Set a background color */
+}
+
+.nav-container a {
+  padding: 10px;
+  color: rgb(255, 255, 255);
+}
+
+.nav-container a.active {
+  color: grey;
+}

@@ -1,0 +1,11 @@
+.home-container {
+  display: flex;
+  flex-direction: column; /* Stack the buttons vertically */
+  align-items: center; /* Optional: Center the buttons horizontally */
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px; /* Adjust the button padding for better look */
+  font-size: 16px; /* Optional: Change the font size */
+}
